@@ -2,23 +2,26 @@
 
 # 0x00.AirBnB Clone - The Console
 # Functionalities of this command interpreter:
-*Create a new object (ex: a new User or a new Place)
+Create a new object (ex: a new User or a new Place)
 
-*Retrieve an object from a file, a database etc...
+Retrieve an object from a file, a database etc...
 
-*Do operations on objects (count, compute stats, etc...)
+Do operations on objects (count, compute stats, etc...)
 
-*Update attributes of an object
+Update attributes of an object
 
-*Destroy an object
+Destroy an object
 
 # Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
 # Installation
 Clone this repository: git clone "https://github.com/bmokase3093/AirBnB_clone.git"
+
 Access AirBnb directory: cd AirBnB_clone
+
 Run hbnb(interactively): ./console and enter command
+
 Run hbnb(non-interactively): echo "" | ./console.py
 
 # Description
@@ -29,12 +32,19 @@ The console is a Unix shell-like command line user interface provided by the pyt
 
 # Command	Example
 Display commands help	(hbnb) help
+
 Create object (prints its id)	(hbnb) create )
+
 Destroy object	(hbnb) destroy or (hbnb) .destroy()
+
 Show object	(hbnb) show or (hbnb) .show()
+
 Show "all" objects or instances class	(hbnb) all or (hbnb) all
+
 Run console	./console.py
+
 Quit console	(hbnb)quit
+
 Help command example
 
 (hbnb) help
