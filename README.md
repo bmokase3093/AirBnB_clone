@@ -1,27 +1,29 @@
 # AirBnB_clone
 
-0x00.AirBnB Clone - The Console
-Functionalities of this command interpreter:
+# 0x00.AirBnB Clone - The Console
+#Functionalities of this command interpreter:
 Create a new object (ex: a new User or a new Place)
 Retrieve an object from a file, a database etc...
 Do operations on objects (count, compute stats, etc...)
 Update attributes of an object
 Destroy an object
-Environment
+
+# Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
-Installation
-Clone this repository: git clone "https://github.com/Abinet508/AirBnB_clone.git"
+# Installation
+Clone this repository: git clone "https://github.com/bmokase3093/AirBnB_clone.git"
 Access AirBnb directory: cd AirBnB_clone
 Run hbnb(interactively): ./console and enter command
 Run hbnb(non-interactively): echo "" | ./console.py
-Description
+
+# Description
 This team project is part of alx Software Engineer program. It's the first step towards building a first full web application: an AirBnB clone. This first step consists of a custom command-line interface for data management,and the base classes for the storage of this data.
 
-Console and Command Usage
+# Console and Command Usage
 The console is a Unix shell-like command line user interface provided by the python CmdModule It prints a prompt and waits for the user for input, for our project we used (hbnb)
 
-Command	Example
+# Command	Example
 Display commands help	(hbnb) help
 Create object (prints its id)	(hbnb) create )
 Destroy object	(hbnb) destroy or (hbnb) .destroy()
@@ -33,10 +35,10 @@ Help command example
 
 (hbnb) help
 
-Documented commands (type help ):
+# Documented commands (type help ):
 EOF all count create destroy help quit show update
 
-Class Models Used
+# Class Models Used
 File	Description	Attributes
 base_model.py	The BaseModel class is inherited by other	id, created_at, updated_at
 user.py	User class stores user-related info	email, password, first_name, last_name
@@ -50,8 +52,8 @@ review.py	Review class stores previous customer reviews	place_id, user_id, text
 and opinions	
 amenity.py	Amenity class stores highlighted amenity	name
 information	
-Tests
+# Tests
 All the code is tested with the unittest module. The test for the classes are inthetest_models folder.
 
-Authors
+# Authors
 Bongani Mokase - Bongani
